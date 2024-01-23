@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* globals.css */
+
+/* Apply a default font and box-sizing to all elements */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Change to your preferred font */
+}
+
+/* Add a global background color and text color */
+body {
+
+  background-color: #032831; 
+  /* Change to your preferred background color */
+  color: #ffffff; /* Change to your preferred text color */
+}
+
+
