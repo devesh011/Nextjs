@@ -3,9 +3,9 @@ import { Link , animateScroll as scroll} from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#032831] px-10 py-4">
+    <nav className="bg-[#032831]  px-4 sm:px-6 md:px-8 py-4 ">
       
-        <div className="mx-auto flex flex-row gap-5 mr-16 justify-end">
+        <div className="mx-auto flex flex-row gap-5 justify-center md:justify-end sm:mr-16 ">
         <Link className='cursor-pointer'
       activeClass="active" 
       to="Home" 
