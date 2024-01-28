@@ -11,9 +11,9 @@ function Main () {
   A blissful escape into nature's embrace
 </h1>
 
-      <div className="container mx-auto mt-8 mb-8 flex flex-col sm:flex-row">
+      <div className="container mx-auto mt-8 mb-8 flex flex-col sm:flex-row justify-around">
         {/* Image */}
-        <div className="mb-4 sm:mr-2 sm:mb-0 ">
+        <div className="sm:w-[50%] mb-4 sm:mr-2 sm:mb-0 ">
   <img className="w-full h-full mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl" src="/Cappadocia1.jpg" alt="lol1" />
 </div>
 
