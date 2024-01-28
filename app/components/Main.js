@@ -11,9 +11,9 @@ function Main () {
   A blissful escape into nature's embrace
 </h1>
 
-      <div className="container mx-auto mt-8 mb-8 flex flex-col sm:flex-row justify-around">
+      <div className="container mx-auto mt-8 mb-8 flex flex-col gap-5 sm:flex-row justify-center ">
         {/* Image */}
-        <div className="sm:w-[50%] mb-4 sm:mr-2 sm:mb-0 ">
+        <div className="mb-4 sm:mr-2 sm:mb-0 ">
   <img className="w-full h-full mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl" src="/Cappadocia1.jpg" alt="lol1" />
 </div>
 
@@ -24,7 +24,7 @@ function Main () {
        
           {/* Input Fields */}
           <div className="w-full p-5 bg-[#3B4E55]">
-          <form>
+          <form action="#" method="POST">
           <div className=" flex flex-wrap ">
             <div className="flex flex-col  w-[93%] sm:w-1/2 pr-2 sm:pr-2 sm:pt-2">
               <label htmlFor="firstName" className="text-white">First Name:</label>
@@ -90,7 +90,7 @@ function Main () {
     </div>
     
  {/* Four Small Pictures Section */}
- <div className="container mx-auto mt-8 flex flex-col sm:flex-row justify-center gap-4">
+ <div className="container mx-auto mt-8 flex flex-col sm:flex-row justify-center gap-3">
  <div className="small-image-container w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4">
            <div className="small-image  border border-green-300">
           <img src="/1.jpg" alt="lol" className="w-full h-full object-cover" />
@@ -108,7 +108,7 @@ function Main () {
         </div>
         <div className="small-image-container sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4">
            <div className="small-image border border-green-300">
-          <img  src="/image-2.jpg" alt="lol" className="w-full h-full object-cover" />
+          <img  src="/image-3.jpg" alt="lol" className="w-full h-full object-cover" />
         </div>
         </div>
       </div>
